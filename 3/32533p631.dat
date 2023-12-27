@@ -1,12 +1,13 @@
 0 Technic Disc  5 x  5 Projectile with Bionicle Kanoka 631 Onu-Metru Pattern
 0 Name: 32533p631.dat
 0 Author: Santeri Piippo [arezey]
-0 !LDRAW_ORG Part UPDATE 2020-03
-0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+0 !LDRAW_ORG Unofficial_Part 
+0 !LICENSE Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt
 
 0 BFC CERTIFY CCW
 
 0 !HISTORY 2020-12-29 [PTadmin] Official Update 2020-03
+0 !HISTORY 2023-01-02 [SwampKryakwa] Use of image texture in place of geometry pattern. Geometry pattern kept as fallback
 
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\32533s01.dat
@@ -15,6 +16,14 @@
 1 16 0 0 0 0.5 0 0.866 0 1 0 0.866 0 -0.5 s\32533s01.dat
 1 16 0 0 0 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 s\32533s01.dat
 1 16 0 0 0 0.5 0 -0.866 0 1 0 -0.866 0 -0.5 s\32533s01.dat
+0 !TEXMAP START PLANAR -36.1299 0 36.1299 36.1299 0 36.1299 -36.1299 0 -36.1299 32533p631.png
+0 !: 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\32533s02.dat
+0 !: 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\32533s02.dat
+0 !: 1 16 0 0 0 -0.5 0 -0.866025 0 1 0 0.866025 0 -0.5 s\32533s02.dat
+0 !: 1 16 0 0 0 0.5 0 -0.866025 0 1 0 -0.866025 0 -0.5 s\32533s02.dat
+0 !: 1 16 0 0 0 -0.5 0 0.866025 0 1 0 -0.866025 0 -0.5 s\32533s02.dat
+0 !: 1 16 0 0 0 0.5 0 0.866025 0 1 0 0.866025 0 -0.5 s\32533s02.dat
+0 !TEXMAP FALLBACK
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\32533p06s01.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\32533p06s01.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\32533p00s07.dat
@@ -239,3 +248,4 @@
 4 0 3.75 -12.2218 -28.4806 3.75 -12.9806 -31 4 -13.2867 -32 4 -13.1737 -31.625
 3 0 4 -13.1737 -31.625 4.1444 -13.1331 -31.4806 3.75 -12.2218 -28.4806
 4 16 4 -13.2867 -32 4.2127 -13.2908 -32 4.1444 -13.1331 -31.4806 4 -13.1737 -31.625
+0 !TEXMAP END
